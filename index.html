@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>重游武汉</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="animate.js"></script>
+</head>
+<body>
+	
+	<div class="header clear">
+        <div id="box">
+            <div id="img1" width="100" height="100">
+                <img src="image/logo-small.jpg">
+                <div id="slidr"></div>
+            </div>
+            <div id="img2">
+                    <img src="image/logo-big.png" width="300" height="300" id="Bimg">
+            </div>
+            <div class="in">
+                <p class="name">用户名:</p>
+                <input type="text" class="user" placeholder="请输入手机号/邮箱">
+                <p class="pass">密码:</p>
+                <input type="password" class="word" placeholder="请输入密码">
+            </div>
+            <div class="tu">
+	           <form class="info_right clear">
+                <input type="text" placeholder="输入关键字" class="search"  onfocus="num()"  onblur="blank()"/>
+                <input type="button" class="submit" />
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="header__info">
+        <ul class="info clear">
+            <li><a href="#">首页导航</a></li>
+            <li><a href="#">历史文化</a></li>
+            <li><a href="#">旅游景点</a></li>
+            <li><a href="#">美食小吃</a></li>
+            <li><a href="#">旅游路线</a></li>
+            <li><a href="#">民俗居所</a></li>
+            <li><a href="#">交通工具</a></li>
+            <li><a href="#">旅游顾问</a></li>
+            <li><a href="#">旅游指南</a></li>
+        </ul>
+    </div>
+    <div class="banner" id="banner">
+        <div class="slider" id="slider">
+            <div class="slide"><img src="image/banner5.png" height="457" width="1200"></div>
+            <div class="slide"><img src="image/banner1.png" height="457" width="1200"></div>
+            <div class="slide"><img src="image/banner2.png" height="457" width="1200"></div>
+            <div class="slide"><img src="image/banner3.png" height="457" width="1200"></div>
+            <div class="slide"><img src="image/banner4.png" height="457" width="1200"></div>
+             <div class="slide"><img src="image/banner5.png" height="457" width="1200"></div>
+             <div class="slide"><img src="image/banner1.png" height="457" width="1200"></div>
+        </div>
+        <span id="left"><</span>
+        <span id="right">></span>
+        <ul class="nav" id="nav">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div class="center">
+        <p class="rleft">景点推荐</p>
+        <ul class="center__info clear">
+            <li><a href="#">推荐</a></li>
+            <li><a href="#">武汉大学樱花</a></li>
+            <li><a href="#">黄鹤楼</a></li>
+            <li><a href="#">东湖景区</a></li>
+            <li><a href="#">武汉长江大桥</a></li>
+        </ul>
+        <div class="more">
+        <a href="#">更多></a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="photo clear">
+            <ul class="product-big clear">
+                 <li class="product-item">
+                    <img src="image/show_01.png" alt=""  />
+                    <div class="product-info">
+                        <p>武汉大学樱花</p>
+                        <span class="bottom">樱花盛开，唯有武大</span>
+                    </div>
+                </li>
+            </ul>
+            <ul class="product-big clear">
+                <li class="product-item">
+                    <img src="image/show_02.png" alt=""  />
+                    <div class="product-info">
+                        <p>黄鹤楼</p>
+                        <span class="bottom">对江楼阁参天立，全楚山河缩地来</span> 
+                    </div>
+                </li>
+            </ul>
+            <ul class="product-big clear">
+                <li class="product-item">
+                    <img src="image/show_03.png" alt=""  />
+                    <div class="product-info">
+                        <p>东湖景区</p>
+                        <span class="bottom">一围眼浪六十里，几队寒鸦千百雏</span> 
+                    </div>
+                </li>
+            </ul>
+            <ul class="product-big clear">
+                <li class="product-item">
+                    <img src="image/show_04.png" alt=""  />
+                    <div class="product-info">
+                        <p>武汉长江大桥</p>
+                        <span class="bottom">烟雨莽苍苍,龟蛇锁大江</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container3">
+        <span class="center-left">美食推荐</span>
+        <ul class="center-center clear">
+            <li><a href="#">热门</a></li>
+            <li><a href="#">热干面</a></li>
+            <li><a href="#">排骨莲藕汤</a></li>
+            <li><a href="#">四季汤包</a></li>
+        </ul>
+        <div class="center-right">
+        <a href="#">更多></a>
+            </div>
+    </div>
+    <div class="container5">
+        <div class="photo4 clear">
+            <ul class="ad-big">
+                <img src="image/show_13.png" alt="" >
+                </ul>
+            <ul class="ad">
+                <li>
+                    <img src="image/show_09.png" alt="" >
+                    <ul>
+                        <li><span style="font-size:15px">热干面</span>
+                        <span style="font-size:12px">热干面是中国十大面条之一，也是湖北武汉最出名的小吃之一</span></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="ad">
+                <li class="ad-item">
+                    <img src="image/show_10.png" alt="" >
+                    <ul>
+                        <li><span style="font-size:15px">排骨莲藕汤</span>
+                        <span style="font-size:12px">莲藕排骨汤被评为“中国菜”之湖北十大经典名菜</span></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="ad">
+                <li class="ad-item">
+                    <img src="image/show_11.png" alt="" >
+                    <ul>
+                        <li><span style="font-size:15px">三鲜豆皮</span>
+                        <span style="font-size:13px">三鲜豆皮是武汉人早点的食品之一，也是民间极具特色的地方小吃之一</span></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="ad">
+                <li class="ad-item">
+                    <img src="image/show_12.png" alt="" >
+                    <ul>
+                        <li><span style="font-size:15px">四季汤包</span>
+                        <span style="font-size:12px">四季美汤包是湖北武汉著名的小吃，属于苏式汤包</span></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="last">
+        <div class="ad-small">
+            <div class="first">
+                <p>春暖花开，再赴武汉</p>
+            </div>
+            <div class="second">
+                <span>从</span>
+                <span id="address">太原</span>
+                <span>到武汉的路线</span>
+            </div>
+            <div class="third">
+                <input class="button" type="button" value="切换出发城市" onclick="change()">
+            </div>
+        </div>
+        <div class="preferential-left">
+            <ul class="info_bottom">
+                <li class="firstly"><a href="#">关于网站</a></li>
+                <li><a href="#">关于</a></li>
+                <li><a href="#">管理团队</a></li>
+                <li><a href="#">工作机会</a></li>
+                <li><a href="#">客户服务</a></li>
+                <li><a href="#">帮助</a></li>
+            </ul>
+        </div>
+        <div class="preferential-center">
+            <ul class="info_bottom">
+                <li class="firstly"><a href="#">新手指南</a></li>
+                <li><a href="#">如何注册</a></li>
+                <li><a href="#">如何登陆</a></li>
+                <li><a href="#">如何预约参观景点</a></li>
+                <li><a href="#">如何品尝美食</a></li>
+            </ul>
+        </div>
+        <div class="preferential-right">
+            <ul class="info_bottom">
+                <li class="firstly"><a href="#">合作伙伴</a></li>
+                <li><a href="#">合作机构</a></li>
+                <li><a href="#">合作团队</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="down">
+    	<div id="x" style=" position:relative;left:150px;">武汉之美，天下共赏</div>
+    </div>	
+    <script>
+    function down(){
+    	var p=true;
+    	var x=document.getElementById('x');
+    	var xleft=parseInt(x.style.left);
+    	var speed=10;
+    	var t=setInterval(rollRight,speed);
+    	function rollLeft(){
+      		if(p){
+        		xleft--;
+        		x.style.left = xleft+'px';
+        		if(xleft <=0 ){
+          		clearInterval(t);
+          		t=setInterval(rollRight,speed);
+        		}
+      		}
+    	}
+   		function rollRight(){
+      		if(p){
+        	xleft++;
+        	x.style.left = xleft+'px';
+        	if(xleft>=1200){
+          		clearInterval(t);
+          		t=setInterval(rollLeft,speed);
+        		}
+      		}
+    	}
+  	}
+  down();
+    var img1 = document.getElementById('img1');
+    var img2 = document.getElementById('img2');
+    var slidr = document.getElementById('slidr');
+    var box = document.getElementById('box');
+    var Bimg = document.getElementById('Bimg');
+
+    img1.onmouseover = function () {
+        slidr.style.display = 'block';
+        img2.style.display = 'block';
+    }
+    img1.onmouseout = function () {
+        slidr.style.display = 'none';
+        img2.style.display = 'none';
+    }
+    img1.onmousemove = function(ev){
+        var ol = ev.clientX - box.offsetLeft - 50/2;
+        var ot = ev.clientY - box.offsetTop - 50/2;
+        ol = ol>50?50:ol<0?0:ol;
+        ot = ot>50?50:ot<0?0:ot;
+        slidr.style.left = ol + 'px';
+        slidr.style.top = ot + 'px';
+        var Bl = -ol*150/50;
+        var Bt = -ot*150/50;
+        Bimg.style.left = Bl + 'px';
+        Bimg.style.top = Bt + 'px';
+    }
+        function num() {
+            grandparent = document.getElementsByClassName("info_right");
+            parent = document.createElement("p");
+            parent.setAttribute("class", "parent");
+            son = document.createTextNode("支持中英文输入");
+            grandparent[0].appendChild(parent);
+            parent.appendChild(son);
+        }
+        function blank() {
+            parent.removeChild(son);
+            grandparent[0].removeChild(parent);
+        }
+
+        var city;
+        function change(){
+            city=window.prompt("请输入你的城市");
+            var city1=document.getElementById("address");
+            address.innerHTML=city;
+        }
+        var oNavlist=document.getElementById("nav").children;
+        var banner=document.getElementById("banner");
+        var slider=document.getElementById("slider");
+        var left=document.getElementById("left");
+        var right=document.getElementById("right");
+        var index=1;
+        var timer;
+        var isMoving=false;
+        banner.onmouseover=function(){
+            animate(left,{opacity:50});
+            animate(right,{opacity:50});
+            clearInterval(timer);
+        }
+        banner.onmouseout=function(){
+            animate(left,{opacity:0});
+            animate(right,{opacity:0});
+            timer=setInterval(next,3000);
+        }
+        right.onclick=next;
+        left.onclick=prev;
+        for(var i=0;i<oNavlist.length;i++){
+            oNavlist[i].index=i;
+            oNavlist[i].onclick=function(){
+                index=this.index+1;
+                navmove();
+                animate(slider,{left:-1200*index});
+            }
+        }
+        function next(){
+            if(isMoving){
+                return;
+            }
+            isMoving=true;
+            index++;
+            navmove();
+            animate(slider,{left:-1200*index},function(){
+                if (index==6) {
+                    slider.style.left="-1200px";
+                    index=1;
+                }
+                isMoving=false;
+            });
+        }
+        function prev(){
+            if(isMoving){
+                return;
+            }
+            isMoving=true;
+            index--;
+            navmove();
+            animate(slider,{left:-1200*index},function(){
+                if (index==0) {
+                    slider.style.left="-6000px";
+                    index=5;
+                }
+                isMoving=false;
+            });
+        }
+        function navmove(){
+            for(var i=0;i<oNavlist.length;i++){
+                oNavlist[i].className="";
+            }
+            if(index>5){
+                oNavlist[0].className="active";
+            }else if(index<=0){
+                oNavlist[4].className="active";
+            }else{
+                oNavlist[index-1].className="active";
+            }
+        }
+        timer=setInterval(next, 2000);
+           </script>
+</body>
+</html>
+
+
+
